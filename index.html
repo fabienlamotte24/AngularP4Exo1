@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+  </head>
+  <body ng-app>
+    <button type="button" id="moins" name="moins" ng-click="count = count - 1" ng-init="count=0">-</button>
+    <button type="button" id="plus" name="plus" ng-click="count = count + 1" ng-init="count=0">+</button>
+    <p>Le chiffre est de 0<br />
+    Maintenant, il est de {{count}}</p>
+  </body>
+</html>
